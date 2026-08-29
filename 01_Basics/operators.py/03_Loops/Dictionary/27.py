@@ -5,5 +5,5 @@ students = {
 }
 
 for key,value in students.items():
-    if value["age"] > 21:
+    if value["age"] >= 21:
         print(value["name"],value["city"])
