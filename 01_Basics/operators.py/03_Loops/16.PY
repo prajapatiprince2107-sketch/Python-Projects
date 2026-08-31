@@ -1,14 +1,13 @@
-correct_password = "python123"
+number = int(input("Enter a number: "))
 
-while True:
+i = 1
 
-    password = input("Enter password: ")
+while i <= 10:
 
-    if password == correct_password:
-        print("✅ Correct password!")
-        print("Welcome Prince!")
-        break
+    result = number * i
 
-    else:
-        print("❌ Wrong password")
-        print("Try again...")
+    print(number, "x", i, "=", result)
+
+    i = i + 1
+
+print("\nTable completed! ✅")
